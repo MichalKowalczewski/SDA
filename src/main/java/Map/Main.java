@@ -1,4 +1,9 @@
-import java.util.Scanner;
+package Map;
+
+import Map.Anagram;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
 
@@ -11,5 +16,7 @@ public class Main {
         else{
             System.out.println("Nie jest Anagramem");
         }
+
+        List<Integer> list = new ArrayList<Integer>();
     }
 }
